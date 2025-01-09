@@ -1,0 +1,203 @@
+/*reseting the CSS*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+/* header styling part */
+.logo-image{
+    width: 10vw;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vh 8vw;
+    border-bottom: 1px solid #f2f2f2;
+    /* position: fixed; */
+}
+a {
+    text-decoration: none;
+}
+.options {
+    display: flex;
+    gap: 2vw;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+/* header end */
+
+
+
+/* main start */
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+    gap: 4vh;
+}
+
+.main img {
+    width: 56vw;
+}
+.main-heading {
+    font-size: 3px;
+}
+.main button{
+    border: none;
+    background-color: #387ed1;
+    padding: 10px 24px;
+    border-radius: 4px;
+    color: aliceblue;
+}
+.parent{
+    padding: 4vh 8vw;
+    display: flex;
+    align-items: flex-start;
+    gap: 4vw;
+}
+h2 {
+    font-size: 30px;
+    color: #666666;
+}
+h4 {
+   color: #666666;
+   font: 16px;
+   margin-bottom: 15px;
+}
+span {
+    color: cornflowerblue;
+}
+.child-2 img{
+    height: auto;
+    width: 35vw;
+    flex: 1;    
+}
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.parent-2{
+    padding: 4vh 8vw; 
+    gap: 2vw; 
+    display: flex; 
+    margin-top: 20px;
+}
+h {
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+p {
+   color: #666666;
+   font-size: 1rem;
+}
+.main button:hover{
+    background-color: #222;
+}
+.child4{
+    width: 40%;
+    justify-content: space-between;
+    display: flex;
+}
+.child4 img{
+    height: 70px;
+    width: 90px;
+}
+p1 {
+    font-size: 10px;
+    align-self: flex-end;
+
+}
+.parent-3{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin-top: 50px;
+    gap: 50px;
+}
+.one, 
+.two, 
+.three {
+    align-items: center;
+    display: flex;
+    height: 30px;
+}
+.parent-4{
+    display: flex;
+    align-items:normal;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 4vh 8vw; 
+    gap: 50px;
+
+}
+.children-1 img{
+     height: 500px;
+     width: 550px;   
+     display: flex;
+     justify-content: space-between;
+     /* padding-left: 150px; */
+}
+.children-2{
+    margin-top: 100px;
+    line-height: 1.5;
+    row-gap: 20px;
+    padding-right: 400px;
+}
+.footer{
+    padding: 4vh 8vw;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 90px;
+    background-color: gainsboro;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 14vh 14vw;
+}
+ .last-image {
+     width: 12vw;
+ }
+.final{
+    padding: 10vh 2vw;
+    text-align: justify;
+    align-items: center;
+    font-weight: 40;
+    font-size: smaller;
+    color: #666;
+    background-color: gainsboro;
+}
+.final h3{
+    color: gray;
+}
+.last-2{
+    flex-direction: column;
+}
+.last-3{
+    flex-direction: column;
+}
+.last-4{
+    flex-direction: column;
+}
+.final{
+    padding: 4vh 8vw;
+    font-size: 10px;
+}
+.footer-2{
+    flex-direction: column-reverse;
+}
